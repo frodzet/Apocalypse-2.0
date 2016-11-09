@@ -13,15 +13,19 @@ public class Player extends Actor
     private int armor;
     private int score;
     private Weapon startWeapon;
+    private GreenfootImage startImage;
     
     private boolean isAlive;
     private Weapon currentWeapon;
+    
+    private int actCount;
     
     /**
      * Default constructor for Player.
      */
     public Player()
     {
+        startImage = new GreenfootImage("player.png");
         init();
     }
     
@@ -36,6 +40,7 @@ public class Player extends Actor
        score = 0;
        startWeapon = new Pistol();
        currentWeapon = startWeapon;
+       this.setImage(startImage);
        isAlive = true;
     }
     
@@ -173,6 +178,9 @@ public class Player extends Actor
         }
     }
     
+    /**
+     * Gets the current weapon the player is using.
+     */
     public Weapon getCurrentWeapon()
     {
         return currentWeapon;
@@ -183,11 +191,18 @@ public class Player extends Actor
      */
     public void shoot()
     {
-        if (Greenfoot.isKeyDown("space"))
+        // Set's the fire rate of the currently equipped weapon.
+        if (actCount > 5 + currentWeapon.fireRate())
         {
-            Bullet bullet = new Bullet();
-            bullet.setRotation(this.getRotation());
-            this.getWorld().addObject(bullet, getX(), getY());
+            // Set space as the default key for shooting.
+            if (Greenfoot.isKeyDown("space"))
+            {
+                Bullet bullet = new Bullet();
+                bullet.setRotation(this.getRotation());
+                this.getWorld().addObject(bullet, getX(), getY());
+                actCount = 0;
+            }
         }
+        actCount++;
     }
 }

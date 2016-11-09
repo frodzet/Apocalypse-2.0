@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Pistol extends Weapon
 {
     private static final int PISTOL_DAMAGE = 1;
-    private static final int PISTOL_FIRE_RATE = 2;
+    private static final int PISTOL_FIRE_RATE = 0;
     private static final int PISTOL_RELOAD_TIME = 1;
     private GreenfootImage weaponImage;
     

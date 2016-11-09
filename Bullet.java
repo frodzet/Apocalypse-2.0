@@ -10,6 +10,9 @@ public class Bullet extends Actor
 {
     private int rotation;
     
+    /**
+     * Default bullet constructor.
+     */
     public Bullet()
     {
         setDirection();
@@ -46,7 +49,7 @@ public class Bullet extends Actor
     }
     
     /**
-     * Deal damage.
+     * Gets the damage from the currently equipped weapon.
      */
     public int getDamage()
     {
@@ -71,7 +74,8 @@ public class Bullet extends Actor
             return;
         if (newCreature.getHealth() == 0)
             creature.getWorld().removeObject(creature);
-            
-        newCreature.setHealth(newCreature.getHealth() - getDamage());    
+           
+        newCreature.setHealth(newCreature.getHealth() - getDamage());
+        this.getWorld().removeObject(this); 
     }
 }

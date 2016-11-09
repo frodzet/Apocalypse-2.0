@@ -16,13 +16,19 @@ public abstract class Weapon extends Actor
     public abstract int fireRate();
     public abstract int reloadTime();  
     
+    /**
+     * Default constructor.
+     */
     public Weapon()
     {
         this.damage = damage();
         this.fireRate = fireRate();
         this.reloadTime = reloadTime();
     }
-        
+    
+    /**
+     * Returns the weapon.
+     */
     public Weapon getWeapon()
     {
         return this;

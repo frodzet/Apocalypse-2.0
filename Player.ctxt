@@ -24,6 +24,7 @@ comment15.target=void\ pickupWeapon()
 comment15.text=\r\n\ Picks\ up\ a\ weapon\ on\ the\ ground.\r\n
 comment16.params=
 comment16.target=Weapon\ getCurrentWeapon()
+comment16.text=\r\n\ Gets\ the\ current\ weapon\ the\ player\ is\ using.\r\n
 comment17.params=
 comment17.target=void\ shoot()
 comment17.text=\r\n\ Shoot.\r\n
