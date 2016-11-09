@@ -15,7 +15,7 @@ public class SMG extends Weapon
     
     public SMG()
     {
-        this.weaponImage = new GreenfootImage("ant.png");
+        this.weaponImage = new GreenfootImage("usi.png");
         this.setImage(weaponImage);
     }
     

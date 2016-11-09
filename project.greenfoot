@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Wed Nov 09 11:36:06 CET 2016
+#Wed Nov 09 12:28:05 CET 2016
 editor.fx.0.height=700
 target2.width=80
 class.Creature.image=boy1.png
@@ -63,9 +63,9 @@ editor.fx.0.x=0
 dependency6.to=Weapon
 target2.showInterface=false
 dependency1.from=Creature
-mainWindow.y=-8
-editor.swing.0.y=4
-mainWindow.x=-8
+mainWindow.y=23
+editor.swing.0.y=23
+mainWindow.x=0
 editor.swing.0.x=0
 target5.showInterface=false
 dependency5.from=Weapon
@@ -101,7 +101,7 @@ target3.height=50
 dependency8.type=UsesDependency
 target1.y=130
 target1.x=100
-class.Bullet.image=ant.png
+class.Bullet.image=bullet.png
 target5.typeParameters=
 dependency2.from=GameBoard
 dependency6.from=GameBoard
@@ -134,9 +134,9 @@ dependency13.from=Bullet
 class.GameBoard.superclass=greenfoot.World
 dependency9.type=UsesDependency
 target6.width=80
-class.Shotgun.image=shotgun.png
+class.Shotgun.image=shotgun1.png
 target7.width=80
-class.SMG.image=shotgun.png
+class.SMG.image=usi.png
 dependency3.from=GameBoard
 target1.typeParameters=
 target3.width=80

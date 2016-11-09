@@ -15,7 +15,7 @@ public class Shotgun extends Weapon
     
     public Shotgun()
     {
-        this.weaponImage = new GreenfootImage("shotgun.png");
+        this.weaponImage = new GreenfootImage("shotgun1.png");
         this.setImage(weaponImage);
     }
     
