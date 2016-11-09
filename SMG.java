@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class SMG extends Weapon
 {
    private static final int SMG_DAMAGE = 1;
-    private static final int SMG_FIRE_RATE = 2;
+    private static final int SMG_FIRE_RATE = 0;
     private static final int SMG_RELOAD_TIME = 1;
     private GreenfootImage weaponImage;
     

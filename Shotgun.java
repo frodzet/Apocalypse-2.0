@@ -8,14 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Shotgun extends Weapon
 {
-    private static final int SHOTGUN_DAMAGE = 1;
-    private static final int SHOTGUN_FIRE_RATE = 2;
+    private static final int SHOTGUN_DAMAGE = 5;
+    private static final int SHOTGUN_FIRE_RATE = 50;
     private static final int SHOTGUN_RELOAD_TIME = 1;
     private GreenfootImage weaponImage;
     
     public Shotgun()
     {
-        this.weaponImage = new GreenfootImage("ant.png");
+        this.weaponImage = new GreenfootImage("shotgun.png");
         this.setImage(weaponImage);
     }
     
