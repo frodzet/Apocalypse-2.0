@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Weapon\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ damage()
+comment2.params=
+comment2.target=int\ fireRate()
+comment3.params=
+comment3.target=int\ reloadTime()
+comment4.params=
+comment4.target=Weapon()
+comment5.params=
+comment5.target=Weapon\ getWeapon()
+numComments=6

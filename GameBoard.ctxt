@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=GameBoard
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameBoard\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=GameBoard()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameBoard.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\r\n\ Initializes\ the\ default\ settings\ for\ the\ GameBoard.\r\n
+comment4.params=amount
+comment4.target=void\ startNextWave(int)
+comment5.params=
+comment5.target=boolean\ isWaveActive()
+comment6.params=weapon
+comment6.target=void\ spawnWeaponAtRandomLocation(Weapon)
+comment7.params=weapon
+comment7.target=void\ removeWeapon(Weapon)
+comment8.params=
+comment8.target=Player\ getPlayer()
+comment8.text=\r\n\ Return\ the\ player\ currently\ within\ the\ GameBoard\r\n
+numComments=9

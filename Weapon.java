@@ -1,0 +1,30 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Weapon here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public abstract class Weapon extends Actor
+{
+    private int damage;
+    private int fireRate;
+    private int reloadTime;
+    
+    public abstract int damage();
+    public abstract int fireRate();
+    public abstract int reloadTime();  
+    
+    public Weapon()
+    {
+        this.damage = damage();
+        this.fireRate = fireRate();
+        this.reloadTime = reloadTime();
+    }
+        
+    public Weapon getWeapon()
+    {
+        return this;
+    }
+}
