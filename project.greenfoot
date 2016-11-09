@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Wed Nov 09 10:05:51 CET 2016
+#Wed Nov 09 10:19:35 CET 2016
 class.Weapon.superclass=greenfoot.Actor
 dependency9.type=UsesDependency
 target4.type=ClassTarget
@@ -88,6 +88,7 @@ dependency7.type=UsesDependency
 target2.type=ClassTarget
 target2.y=10
 target2.x=100
+class.MG.superclass=Weapon
 mainWindow.y=-8
 mainWindow.x=-8
 dependency1.from=Creature
@@ -116,6 +117,7 @@ mainWindow.height=1056
 target2.showInterface=false
 dependency11.from=Bullet
 editor.swing.0.height=0
+class.Shotgun.superclass=Weapon
 target3.name=Creature
 target6.showInterface=false
 dependency11.type=UsesDependency
